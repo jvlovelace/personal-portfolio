@@ -1,16 +1,41 @@
-# React + Vite
+# Jonathan Lovelace | Product Management & Technical Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, high-performance portfolio website built to showcase the intersection of product strategy and technical execution. This site serves as a visual and functional representation of my background in **Product Management** and my commitment to deepening my **Technical Knowledge**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Overview
 
-## React Compiler
+This portfolio is more than just a resume; it is a technical project built from the ground up to demonstrate leadership in technology. It focuses on a clean user experience (UX), robust architecture, and a modern aesthetic that reflects a high standard for product quality.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Link to Live Demo](https://your-github-username.github.io/your-repo-name/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+* **Indigo + Dark Leadership Theme:** A bespoke visual identity designed to convey authority, modernism, and technical sophistication.
+* **Responsive Architecture:** Fully optimized for mobile, tablet, and desktop viewing to ensure a seamless product experience across all devices.
+* **Custom Experience Section:** A specialized timeline and layout designed to highlight career growth and product milestones.
+* **Advanced Project Section:** Interactive cards and modals that dive deep into technical specs and product impact.
+* **Integrated Contact Form:** A functional communication channel for recruiters and collaborators.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+| :--- | :--- |
+| **ReactJS** | Component-based UI architecture |
+| **Tailwind CSS** | Utility-first styling for the Indigo/Dark theme |
+| **Vite** | Lightning-fast build tool and development server |
+| **Git/GitHub** | Version control and deployment |
+
+---
+
+## 🤝 Contact
+I am always open to discussing product strategy, technical challenges, or potential collaborations.
+
+LinkedIn: https://www.linkedin.com/in/jvlovelace
+
+Email: contact@jvlovelace.com
