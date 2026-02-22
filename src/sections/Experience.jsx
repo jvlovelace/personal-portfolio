@@ -1,40 +1,29 @@
 const experiences = [
-  {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
-    description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+{
+    period: "Jan 2023 — Present",
+    role: "Founder & Product Lead",
+    company: "Lovelace Digital Media",
+    description: "Defined the product vision and operational roadmap for a digital media brand, establishing standardized quality gates and production sprints for a cross-functional team. Architected an end-to-end production pipeline that utilized asynchronous feedback loops to scale content output for a network reaching 10M+ viewers.",
+    technologies: ["Revenue Operations", "Pipeline Architecture", "UA Strategy", "P&L Management"],
     current: true,
   },
-  {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
-    description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+{
+    period: "Jun 2020 — Jan 2023",
+    role: "Product Manager",
+    company: "Blitz.gg",
+    description: "Owned the roadmap for core educational features serving 2.5M+ MAUs, utilizing A/B testing to prioritize updates that drove a 15% increase in session time. Led cross-functional development of a high-concurrency diagnostic tool from ideation to launch, collaborating with engineering to ensure scalable architecture.",
+    technologies: ["Agile/Scrum", "A/B Testing", "Product Roadmapping", "Technical PRDs"],
     current: false,
   },
   {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
-    description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
+    period: "Mar 2020 — Jun 2020",
+    role: "Professional Esports Athlete",
+    company: "Lazarus Esports",
+    description: "Led team strategy and tactical execution at the highest tier of competitive play, analyzing patch data and game mechanics to secure a Top 3 tournament placement. Cultivated a highly engaged community through competitive streaming, leveraging native player empathy to drive a 10% lift in organic viewership.",
+    technologies: ["Meta Analysis", "Team Leadership", "Telemetry Analysis", "Player Empathy"],
     current: false,
   },
-  {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
-    description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
-    current: false,
-  },
+  
 ];
 
 export const Experience = () => {
@@ -70,8 +59,8 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            A chronological roadmap of data-driven execution, progressing from root-cause 
+            competitive analytics to owning enterprise features deployed to millions of users.
           </p>
         </div>
 

@@ -2,40 +2,36 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Lineups Feature",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "Owned the roadmap and Product Lifecycle Management for educational features serving 2.5M+ MAUs. Leveraged A/B testing and user telemetry to prioritize updates that drove a 15% increase in session time.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+    tags: ["Product Roadmapping", "A/B Testing", "User Telemetry", "Product Growth"],
+    link: "https://www.blitz.gg/valorant/lineups",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Headshot Gallery Pipeline",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "Architected a scalable delivery pipeline for 1,000+ digital assets by implementing Scrum frameworks. Optimized workflows to reduce SLA turnaround times by 20% while achieving a 95% on-time sprint completion rate.",
     image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+    tags: ["Agile/Scrum", "SLA Optimization", "KPIs/OKRs", "Pipeline Architecture"],
     link: "#",
-    github: "#",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Valorant Weapons Analytics",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "Led cross-functional development of a high-concurrency diagnostic tool for competitive gamers. Authored technical PRDs and collaborated with engineering to ensure scalable architecture, delivering a 30% lift in feature engagement.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+    tags: ["Technical PRD Authoring", "Cross-Functional Leadership", "Scalable Architecture", "Feature Engagement"],
+    link: "https://www.blitz.gg/valorant/weapons",
   },
   {
-    title: "Project Management Tool",
+    title: "Revenue Ops & UA Engine",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "Directed revenue operations and P&L for strategic brand partnerships. Executed data-driven user-acquisition campaigns that drove a 45% lift in conversion across a network of 10M+ viewers.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+    tags: ["Revenue Operations", "User Acquisition", "CRO", "P&L Management"],
+    link: "https://www.twitch.tv/custom",
   },
 ];
 
@@ -59,8 +55,8 @@ export const Projects = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A selection of my recent work, from complex web applications to
-            innovative tools that solve real-world problems.
+            A ledger of high-throughput media pipelines, data-driven product roadmaps, 
+            and robust systems engineered for scalable stability.
           </p>
         </div>
 
@@ -92,12 +88,12 @@ export const Projects = () => {
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
-                  <a
-                    href={project.github}
-                    className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                  {/*<a
+                  href={project.github}
+                  className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <Github className="w-5 h-5" />
-                  </a>
+                  </a>*/}
                 </div>
               </div>
 
@@ -133,12 +129,12 @@ export const Projects = () => {
         </div>
 
         {/* View All CTA */}
-        <div className="text-center mt-12 animate-fade-in animation-delay-500">
+        {/*<div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
             View All Projects
             <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

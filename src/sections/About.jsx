@@ -3,26 +3,26 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Systems Architecture",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Architecting robust, scalable backend infrastructure from the ground up.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Pareto Optimization",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Maximizing system efficiency and product impact through analytical problem solving.",
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "Cross-Functional Leadership",
+    description: "Bridging engineering and product vision to drive agile, on-time delivery.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Data-Driven Execution",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Transforming user metrics and root cause analysis into actionable technical solutions.",
   },
 ];
 
@@ -43,41 +43,34 @@ export const About = () => {
               Building the future,
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                one project at a time.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+              Technical Product Manager with six years of experience driving impact across 
+              high-scale gaming platforms and entrepreneurial ventures. I specialize in Product
+               Lifecycle Management, retention scaling, and A/B experimentation for products
+                serving over 2.5 million monthly active users.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+              My approach combines rigorous data analytics with technical principles. At Blitz.gg, I managed roadmaps that increased session time by 15% and delivered scalable architecture for high-concurrency tools. As a Founder, I architected production pipelines that optimized user acquisition for a network of 10 million viewers, achieving a 45% lift in conversion through data-informed strategy.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+              Currently completing a BS in Computer Science to further bridge the gap between technical requirements and product vision. My strategy is uniquely informed by my background as a professional esports athlete, leveraging deep meta-analysis and native player empathy to build systems that deliver measurable business impact. 
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to fuse product leadership with technical excellence, building
+                 scalable architecture that drives measurable impact."
               </p>
             </div>
           </div>
 
-          {/* Right Column - Hilights */}
+          {/* Right Column - Highlights */}
           <div className="grid sm:grid-cols-2 gap-6">
             {highlights.map((item, idx) => (
               <div

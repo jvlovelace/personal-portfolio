@@ -10,24 +10,22 @@ import {
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
-  "React",
-  "Next.js",
-  "TypeScript",
-  "Node.js",
-  "GraphQL",
-  "PostgreSQL",
-  "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
-  "Vercel",
-  "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
+  "Scrum",
+  "Product Roadmapping",
+  "A/B Testing",
+  "Lifecycle Management",
+  "SLA & Workflow Optimization",
+  "Product Growth",
+  "SQL",
+  "Python",
+  "Bash",
   "Git",
-  "GitHub Actions",
+  "Linux",
+  "Relational Databases",
+  "APIs",
+  "Conversion Rate Optimization",
+  "User Acquisition",
+  "Creator Telemetry",
 ];
 
 export const Hero = () => {
@@ -36,20 +34,20 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src="/hero-bg-2.avif"
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background" />
       </div>
 
-      {/* Green Dots */}
+      {/* Indigo Dots */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(30)].map((_, i) => (
           <div
             className="absolute w-1.5 h-1.5 rounded-full opacity-60"
             style={{
-              backgroundColor: "#20B2A6",
+              backgroundColor: "#6366f1",
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
               animation: `slow-drift ${
@@ -69,46 +67,53 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Technical Product Manager | Founder & Product Lead
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+                Engineering <span className="text-primary glow-text">products</span>
                 <br />
-                experiences with
+                that scale
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  for millions of players.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+              I am Jonathan Lovelace, a Technical Product Manager and Founder. 
+              I architect and scale data-driven gaming systems for millions of players, 
+              bridging the gap between high-level product strategy and deep engineering 
+              execution.
               </p>
             </div>
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+              <a href="#contact">
               <Button size="lg">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
+              </a>
+              <a
+              href="/Jonathan_Lovelace_Resume.pdf" 
+              download="Jonathan_Lovelace_Resume.pdf"
+              className="inline-block">
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
                 Download CV
               </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Twitter, href: "#" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/jvlovelace/" },
+                { icon: Github, href: "https://github.com/jvlovelace" },
               ].map((social, idx) => (
                 <a
                   key={idx}
@@ -121,7 +126,7 @@ export const Hero = () => {
             </div>
           </div>
           {/* Right Column - Profile Image */}
-          <div className="relatice animate-fade-in animation-delay-300">
+          <div className="relative animate-fade-in animation-delay-300">
             {/* Profile Image */}
             <div className="relative max-w-md mx-auto">
               <div
@@ -132,9 +137,11 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
-                  alt="Pedro Machado"
-                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                  src="/profile-photo-700.jpg"
+                  alt="Jonathan Lovelace"
+                  className="w-full aspect-[4/5] object-cover rounded-2xl 
+                  image-rendering-smooth
+                  filter contrast-[1] saturate-[1] brightness-[0.86]"
                 />
 
                 {/* Floating Badge */}
@@ -148,8 +155,8 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
-                  <div className="text-xs text-muted-foreground">
+                  <div className="text-2xl font-bold text-primary">6+</div>
+                  <div className="text-xs">
                     Years Exp.
                   </div>
                 </div>
@@ -161,7 +168,7 @@ export const Hero = () => {
         {/* Skills Section */}
         <div className="mt-20 animate-fade-in animation-delay-600">
           <p className="text-sm text-muted-foreground mb-6 text-center">
-            Technologies I work with
+            KEY SKILLS
           </p>
           <div className="relative overflow-hidden">
             <div

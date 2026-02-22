@@ -14,19 +14,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
-    href: "mailto:pedro@example.com",
+    value: "jon@jvlovelace.com",
+    href: "mailto:jon@jvlovelace.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+1 (859) 404-0397",
+    href: "tel:+18594040397",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Austin, TX",
     href: "#",
   },
 ];
@@ -242,9 +242,9 @@ export const Contact = () => {
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
-                let's talk!
+              I am looking to architect the next generation of gaming, tech or esports products.
+               If your organization is ready to scale high-concurrency platforms or 
+               build a data-driven fan ecosystem, let’s build the future together.
               </p>
             </div>
           </div>

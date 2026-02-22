@@ -1,9 +1,8 @@
 import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Github, href: "https://www.github.com/jvlovelace", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/jvlovelace", label: "LinkedIn" },
 ];
 
 const footerLinks = [
@@ -23,10 +22,11 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+            <span className="font-black tracking-[-0.06em] text-primary text-[28px] leading-none">JV</span>
+            <span className="font-light text-[22px] text-foreground ml-2 tracking-tight">LOVELACE</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} Jonathan Lovelace. All rights reserved.
             </p>
           </div>
 

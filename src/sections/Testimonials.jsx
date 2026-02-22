@@ -4,35 +4,27 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Pedro is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
-    author: "Sarah Chen",
-    role: "CTO, Tech Innovators Inc.",
+      "Jonathan doesn't just manage a roadmap, he guts inefficient pipelines and rebuilds them. When he took over our educational features, he ripped out the old workflow and built a tracking system that immediately tanked our turnaround times. He's the rare PM who actually grasps engineering constraints. You don't hand-hold him. Point him at a complex problem and watch him go.",
+    author: "Max Lager",
+    role: "Senior Product Manager, Blitz.gg",
     avatar:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+      "https://media.licdn.com/dms/image/v2/D5603AQE6bxQQxCjIzw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1670529620054?e=1773273600&v=beta&t=OQvwerinvVjwcO2ggujJt9PZcDo6IB_uxAvYb-uo3mU",
   },
   {
     quote:
-      "Working with Pedro was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
-    author: "Michael Rodriguez",
-    role: "Product Manager, Digital Solutions",
+      "Most players just grind mechanics to get better, but Jonathan brought a completely different level of preparation to our roster. He was the one tearing apart VODs to figure out exactly why we were losing rounds. He identified where our execution broke down and forced the team to adapt based on actual competitor habits. That systematic approach is what pushed us to our first Top 3 finish in Valorant.",
+    author: "Kyle Vognsen",
+    role: "General Manager, Lazarus Esports",
     avatar:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+      "https://media.licdn.com/dms/image/v2/D4D03AQH6YLAYdKbLzw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702500941605?e=1773273600&v=beta&t=cgAZBnRXCSIOaNvZdptaPXT2QjaeCKzJTVk1Cr2pwDw",
   },
   {
     quote:
-      "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
-    author: "Emily Watson",
-    role: "Engineering Lead, StartUp Labs",
+      "Working with creators usually means chasing them for deliverables, but Jonathan actually treats his content like a real business. For the Factor campaign, he dug into his analytics and optimized his strategy on the fly to maximize conversions. It's incredibly rare to find someone in this space who cares that much about the actual performance data.",
+    author: "Kelly Sheng",
+    role: "Creator Success Manager, StreamElements",
     avatar:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-  },
-  {
-    quote:
-      "Not only is Pedro technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
-    author: "David Kim",
-    role: "CEO, Innovation Hub",
-    avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "https://media.licdn.com/dms/image/v2/D4E03AQHvWPvK53jzhQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697637682407?e=1773273600&v=beta&t=M5yV-apGYLU052Y8_SqBYp0QAOM_uOI70geuPu6C3I8",
   },
 ];
 
