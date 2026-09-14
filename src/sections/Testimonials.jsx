@@ -7,24 +7,21 @@ const testimonials = [
       "Jonathan doesn't just manage a roadmap, he guts inefficient pipelines and rebuilds them. When he took over our educational features, he ripped out the old workflow and built a tracking system that immediately tanked our turnaround times. He's the rare PM who actually grasps engineering constraints. You don't hand-hold him. Point him at a complex problem and watch him go.",
     author: "Max Lager",
     role: "Senior Product Manager, Blitz.gg",
-    avatar:
-      "https://media.licdn.com/dms/image/v2/D5603AQE6bxQQxCjIzw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1670529620054?e=1773273600&v=beta&t=OQvwerinvVjwcO2ggujJt9PZcDo6IB_uxAvYb-uo3mU",
+    avatar: "/testimonials/max-lager.jpeg",
   },
   {
     quote:
       "Most players just grind mechanics to get better, but Jonathan brought a completely different level of preparation to our roster. He was the one tearing apart VODs to figure out exactly why we were losing rounds. He identified where our execution broke down and forced the team to adapt based on actual competitor habits. That systematic approach is what pushed us to our first Top 3 finish in Valorant.",
     author: "Kyle Vognsen",
     role: "General Manager, Lazarus Esports",
-    avatar:
-      "https://media.licdn.com/dms/image/v2/D4D03AQH6YLAYdKbLzw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702500941605?e=1773273600&v=beta&t=cgAZBnRXCSIOaNvZdptaPXT2QjaeCKzJTVk1Cr2pwDw",
+    avatar: "/testimonials/kyle-vognsen.jpeg",
   },
   {
     quote:
       "Working with creators usually means chasing them for deliverables, but Jonathan actually treats his content like a real business. For the Factor campaign, he dug into his analytics and optimized his strategy on the fly to maximize conversions. It's incredibly rare to find someone in this space who cares that much about the actual performance data.",
     author: "Kelly Sheng",
     role: "Creator Success Manager, StreamElements",
-    avatar:
-      "https://media.licdn.com/dms/image/v2/D4E03AQHvWPvK53jzhQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697637682407?e=1773273600&v=beta&t=M5yV-apGYLU052Y8_SqBYp0QAOM_uOI70geuPu6C3I8",
+    avatar: "/testimonials/kelly-sheng.jpeg",
   },
 ];
 
