@@ -4,21 +4,21 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Jonathan doesn't just manage a roadmap, he guts inefficient pipelines and rebuilds them. When he took over our educational features, he ripped out the old workflow and built a tracking system that immediately tanked our turnaround times. He's the rare PM who actually grasps engineering constraints. You don't hand-hold him. Point him at a complex problem and watch him go.",
+      "Jonathan ran our Valorant lineup production like a real studio — a six-person crew, clear handoffs, and a thousand-plus videos that actually showed up in-product. You pointed him at the pipeline and he made it ship.",
     author: "Max Lager",
     role: "Senior Product Manager, Blitz.gg",
     avatar: "/testimonials/max-lager.jpeg",
   },
   {
     quote:
-      "Most players just grind mechanics to get better, but Jonathan brought a completely different level of preparation to our roster. He was the one tearing apart VODs to figure out exactly why we were losing rounds. He identified where our execution broke down and forced the team to adapt based on actual competitor habits. That systematic approach is what pushed us to our first Top 3 finish in Valorant.",
+      "Most players just grind aim. Jonathan tore apart VODs, named why we were losing rounds, and pushed the roster into a Top 3 finish. That prep was the difference.",
     author: "Kyle Vognsen",
     role: "General Manager, Lazarus Esports",
     avatar: "/testimonials/kyle-vognsen.jpeg",
   },
   {
     quote:
-      "Working with creators usually means chasing them for deliverables, but Jonathan actually treats his content like a real business. For the Factor campaign, he dug into his analytics and optimized his strategy on the fly to maximize conversions. It's incredibly rare to find someone in this space who cares that much about the actual performance data.",
+      "Jonathan treated the channel like a business — packaging brand deals, watching the numbers, and adjusting when something underperformed. Rare to see a creator that serious about the P&L.",
     author: "Kelly Sheng",
     role: "Creator Success Manager, StreamElements",
     avatar: "/testimonials/kelly-sheng.jpeg",
@@ -48,7 +48,6 @@ export const Testimonials = () => {
         className="container mx-auto 
       px-6 relative z-10"
       >
-        {/* Section Header */}
         <div
           className="text-center max-w-3xl 
         mx-auto mb-16"
@@ -70,22 +69,20 @@ export const Testimonials = () => {
               className="font-serif italic 
             font-normal text-white"
             >
-              amazing people.
+              people I&apos;ve worked with.
             </span>
           </h2>
         </div>
 
-        {/* Testimonial Carousel */}
         <div className="max-w-4xl mx-auto">
           <div className="relative">
-            {/* Main Testimonial */}
             <div className="glass p-8 rounded-3xl md:p-12 glow-border animate-fade-in animation-delay-200">
               <div className="absolute -top-4 left-8 w-12 h-12 rounded-full bg-primary flex items-center justify-center">
                 <Quote className="w-6 h-6 text-primary-foreground" />
               </div>
 
               <blockquote className="text-xl md:text-2xl font-medium leading-relaxed mb-8 pt-4">
-                "{testimonials[activeIdx].quote}"
+                &quot;{testimonials[activeIdx].quote}&quot;
               </blockquote>
 
               <div className="flex items-center gap-4">
@@ -105,11 +102,11 @@ export const Testimonials = () => {
               </div>
             </div>
 
-            {/* Testimonials Navigation */}
             <div className="flex items-center justify-center gap-4 mt-8">
               <button
                 className="p-3 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
                 onClick={previous}
+                aria-label="Previous testimonial"
               >
                 <ChevronLeft />
               </button>
@@ -117,7 +114,9 @@ export const Testimonials = () => {
               <div className="flex gap-2">
                 {testimonials.map((_, idx) => (
                   <button
+                    key={idx}
                     onClick={() => setActiveIdx(idx)}
+                    aria-label={`Show testimonial ${idx + 1}`}
                     className={`w-2 h-2 rounded-full transition-all duration-300 ${
                       idx === activeIdx
                         ? "w-8 bg-primary"
@@ -129,6 +128,7 @@ export const Testimonials = () => {
 
               <button
                 onClick={next}
+                aria-label="Next testimonial"
                 className="p-3 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >
                 <ChevronRight />
