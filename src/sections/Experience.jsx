@@ -85,9 +85,8 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            From competitive play and in-product content production to partnered
-            creator ops and esports community management across Twitch, Blitz.gg,
-            Lazarus, and M80.
+            Competitive play at Lazarus, content production at Blitz.gg,
+            partnered creator ops on Twitch, and community management at M80.
           </p>
         </div>
 
