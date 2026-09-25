@@ -57,7 +57,7 @@ export const About = () => {
               <p>
                 As a Twitch Partnered Content Creator (2023–2026), I scaled
                 distribution across Twitch, YouTube, and TikTok to a 10M+ viewer
-                network, reached 2,000+ peak CCU, and drove premium
+                network, reached 2,000+ peak CCV, and drove premium
                 subscriptions to 64% of P&amp;L through brand integrations
                 including GamerSupps and HelloFresh.
               </p>

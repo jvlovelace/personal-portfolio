@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Revenue Ops & UA Engine",
     description:
-      "Scaled a partnered creator channel across Twitch, YouTube, and TikTok to a 10M+ viewer network with 2,000+ peak CCU. Drove premium subscriptions to 64% of P&L through brand integrations including GamerSupps and HelloFresh; held 99% live uptime and lifted early-stage revenue 45%.",
+      "Scaled a partnered creator channel across Twitch, YouTube, and TikTok to a 10M+ viewer network with 2,000+ peak CCV. Drove premium subscriptions to 64% of P&L through brand integrations including GamerSupps and HelloFresh; held 99% live uptime and lifted early-stage revenue 45%.",
     image: "/projects/project4.png",
     tags: [
       "Live Ops",

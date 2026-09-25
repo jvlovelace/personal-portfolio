@@ -87,11 +87,11 @@ export const Hero = () => {
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                 I&apos;m Jonathan Lovelace, a product-minded operator for gaming
-                communities and live platforms. I scaled a partnered creator
-                channel to a 10M+ viewer network and 2,000+ peak CCU, with premium
-                subscriptions at 64% of P&amp;L. At M80 Esports I own community,
-                support, and commerce ops, including AI workflows that cut ticket
-                handling time 40%.
+                communities and live platforms. At Blitz I led 1,000+ videos with
+                a 6-person team for 2.5M MAUs. As a partnered creator I grew to
+                10M+ viewers and 2,000+ peak CCV, with premium subs at 64% of
+                P&amp;L. At M80 I run community, support, and commerce, cutting
+                ticket time 40% with AI workflows.
               </p>
             </div>
 

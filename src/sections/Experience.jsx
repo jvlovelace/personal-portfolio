@@ -19,7 +19,7 @@ const experiences = [
     role: "Partnered Content Creator",
     company: "Twitch",
     description:
-      "Scaled cross-platform distribution across Twitch, YouTube, and TikTok to a 10M+ viewer network. Reached Twitch Partner and 2,000+ peak CCU with 90,000+ hours watched and 130,000+ chat interactions. Drove premium subscription revenue to 64% of P&L through B2B integrations including GamerSupps and HelloFresh. Held 99% live uptime and lifted early-stage revenue 45%.",
+      "Scaled cross-platform distribution across Twitch, YouTube, and TikTok to a 10M+ viewer network. Reached Twitch Partner and 2,000+ peak CCV with 90,000+ hours watched and 130,000+ chat interactions. Drove premium subscription revenue to 64% of P&L through B2B integrations including GamerSupps and HelloFresh. Held 99% live uptime and lifted early-stage revenue 45%.",
     technologies: [
       "Live Ops",
       "Content Funnels",
