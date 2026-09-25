@@ -55,8 +55,8 @@ export const Projects = () => {
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            In-product content at Blitz, creator-platform scale on Twitch, and
-            player education built for competitive audiences.
+            In-product content production, creator-platform scale, and community
+            ops across Blitz, Twitch, and esports.
           </p>
         </div>
 
