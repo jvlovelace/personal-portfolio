@@ -1,29 +1,56 @@
 const experiences = [
-{
-    period: "Jan 2023 — Present",
-    role: "Founder & Product Lead",
-    company: "Lovelace Digital Media",
-    description: "Defined the product vision and operational roadmap for a digital media brand, establishing standardized quality gates and production sprints for a cross-functional team. Architected an end-to-end production pipeline that utilized asynchronous feedback loops to scale content output for a network reaching 10M+ viewers.",
-    technologies: ["Revenue Operations", "Pipeline Architecture", "UA Strategy", "P&L Management"],
+  {
+    period: "Aug 2026 — Present",
+    role: "Community Manager",
+    company: "M80 Esports",
+    description:
+      "Own Discord operations, weekly slates, and m80.gg content (news, match times, roster changes); partner with the COO and Head of Socials on programming. Grew Discord 20% and weekly chatters 15% via brand activations; cut new-member leave 45% by getting time-to-first-chat under 60 seconds. Run player support and Shopify commerce ops, and built AI ticket pipelines that cut handling time 40%.",
+    technologies: [
+      "Discord",
+      "Community Ops",
+      "Shopify",
+      "Support Ops",
+      "AI Workflows",
+    ],
     current: true,
   },
-{
+  {
+    period: "Jan 2023 — Aug 2026",
+    role: "Partnered Content Creator",
+    company: "Twitch",
+    description:
+      "Scaled cross-platform distribution across Twitch, YouTube, and TikTok to a 10M+ viewer network. Reached Twitch Partner and 2,000+ peak CCV with 90,000+ hours watched and 130,000+ chat interactions. Drove premium subscription revenue to 64% of P&L through B2B integrations including GamerSupps and HelloFresh. Held 99% live uptime and lifted early-stage revenue 45%.",
+    technologies: [
+      "Live Ops",
+      "Content Funnels",
+      "P&L Ownership",
+      "Brand Partnerships",
+    ],
+    current: false,
+  },
+  {
     period: "Jun 2020 — Jan 2023",
-    role: "Product Manager",
+    role: "Content Producer",
     company: "Blitz.gg",
-    description: "Owned the roadmap for core educational features serving 2.5M+ MAUs, utilizing A/B testing to prioritize updates that drove a 15% increase in session time. Led cross-functional development of a high-concurrency diagnostic tool from ideation to launch, collaborating with engineering to ensure scalable architecture.",
-    technologies: ["Agile/Scrum", "A/B Testing", "Product Roadmapping", "Technical PRDs"],
+    description:
+      "Led production of 1,000+ Valorant lineup videos for Blitz’s in-product Lineups surface by running a 6-person team across ideation through publish. Used CMS and metatagging so lineup content surfaced correctly in-product and lifted session retention 10%. Raised sprint video output 30%+ by rebuilding the production workflow in Scrum.",
+    technologies: ["Scrum", "CMS", "Content Production", "Sprint Planning"],
     current: false,
   },
   {
     period: "Mar 2020 — Jun 2020",
     role: "Professional Esports Athlete",
     company: "Lazarus Esports",
-    description: "Led team strategy and tactical execution at the highest tier of competitive play, analyzing patch data and game mechanics to secure a Top 3 tournament placement. Cultivated a highly engaged community through competitive streaming, leveraging native player empathy to drive a 10% lift in organic viewership.",
-    technologies: ["Meta Analysis", "Team Leadership", "Telemetry Analysis", "Player Empathy"],
+    description:
+      "Raised team win rate 25% through VOD reviews and structured feedback grounded in competitive meta analysis. Secured a Top 3 tournament finish by turning patch data into team strategy; held Radiant / Global Elite (top 0.1%).",
+    technologies: [
+      "Meta Analysis",
+      "VOD Review",
+      "Team Strategy",
+      "Competitive Play",
+    ],
     current: false,
   },
-  
 ];
 
 export const Experience = () => {
@@ -35,7 +62,6 @@ export const Experience = () => {
       />
 
       <div className="container mx-auto px-6 relative z-10">
-        {/* Section Header */}
         <div className="max-w-3xl mb-16">
           <span
             className="text-secondary-foreground text-sm
@@ -48,10 +74,10 @@ export const Experience = () => {
            mt-4 mb-6 animate-fade-in animation-delay-100
             text-secondary-foreground"
           >
-            Experience that{" "}
+            Where I&apos;ve{" "}
             <span className="font-serif italic font-normal text-white">
               {" "}
-              speaks volumes.
+              built and led.
             </span>
           </h2>
 
@@ -59,16 +85,14 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A chronological roadmap of data-driven execution, progressing from root-cause 
-            competitive analytics to owning enterprise features deployed to millions of users.
+            Competitive play at Lazarus, content production at Blitz.gg,
+            partnered creator ops on Twitch, and community management at M80.
           </p>
         </div>
 
-        {/* Timeline */}
         <div className="relative">
           <div className="timeline-glow absolute left-0 md:left-1/2 top-0 bottom-0 w-[2px] bg-gradient-to-b from-primary/70 via-primary/30 to-transparent md:-translate-x-1/2 shadow-[0_0_25px_rgba(32,178,166,0.8)]" />
 
-          {/* Experience Items */}
           <div className="space-y-12">
             {experiences.map((exp, idx) => (
               <div
@@ -76,14 +100,12 @@ export const Experience = () => {
                 className="relative grid md:grid-cols-2 gap-8 animate-fade-in"
                 style={{ animationDelay: `${(idx + 1) * 150}ms` }}
               >
-                {/* Timeline Dot */}
                 <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10">
                   {exp.current && (
                     <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75" />
                   )}
                 </div>
 
-                {/* Content */}
                 <div
                   className={`pl-8 md:pl-0 ${
                     idx % 2 === 0

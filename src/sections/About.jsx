@@ -1,28 +1,29 @@
-import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
+import { Activity, Film, MessageSquare, Users } from "lucide-react";
 
 const highlights = [
   {
-    icon: Code2,
-    title: "Systems Architecture",
-    description:
-      "Architecting robust, scalable backend infrastructure from the ground up.",
-  },
-  {
-    icon: Rocket,
-    title: "Pareto Optimization",
-    description:
-      "Maximizing system efficiency and product impact through analytical problem solving.",
-  },
-  {
     icon: Users,
-    title: "Cross-Functional Leadership",
-    description: "Bridging engineering and product vision to drive agile, on-time delivery.",
+    title: "Community Ops",
+    description:
+      "Discord growth, weekly programming, and member experience for competitive audiences.",
   },
   {
-    icon: Lightbulb,
-    title: "Data-Driven Execution",
+    icon: MessageSquare,
+    title: "Support & Commerce",
     description:
-      "Transforming user metrics and root cause analysis into actionable technical solutions.",
+      "Player support and Shopify ops, including AI ticket pipelines that cut handling time.",
+  },
+  {
+    icon: Film,
+    title: "Content Production",
+    description:
+      "1,000+ videos with a 6-person team; CMS and Scrum workflows that lifted session retention 10% and sprint output 30%+.",
+  },
+  {
+    icon: Activity,
+    title: "Telemetry & Iteration",
+    description:
+      "Live-stream telemetry, content loops, and retention signals. Test, read the numbers, and tighten the next sprint so output and quality climb together.",
   },
 ];
 
@@ -31,7 +32,6 @@ export const About = () => {
     <section id="about" className="py-32 relative overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left Column */}
           <div className="space-y-8">
             <div className="animate-fade-in">
               <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
@@ -40,37 +40,46 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Building for players,
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one project at a time.
+                in public.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-              Technical Product Manager with six years of experience driving impact across 
-              high-scale gaming platforms and entrepreneurial ventures. I specialize in Product
-               Lifecycle Management, retention scaling, and A/B experimentation for products
-                serving over 2.5 million monthly active users.
+                Product-minded operator for gaming communities and live
+                platforms, spanning competitive play, in-product content
+                production, partnered creator ops, and esports community
+                management.
               </p>
               <p>
-              My approach combines rigorous data analytics with technical principles. At Blitz.gg, I managed roadmaps that increased session time by 15% and delivered scalable architecture for high-concurrency tools. As a Founder, I architected production pipelines that optimized user acquisition for a network of 10 million viewers, achieving a 45% lift in conversion through data-informed strategy.
+                As a Twitch Partnered Content Creator (2023–2026), I scaled
+                distribution across Twitch, YouTube, and TikTok to a 10M+ viewer
+                network, reached 2,000+ peak CCV, and drove premium
+                subscriptions to 64% of P&amp;L through brand integrations
+                including GamerSupps and HelloFresh.
               </p>
               <p>
-              Currently completing a BS in Computer Science to further bridge the gap between technical requirements and product vision. My strategy is uniquely informed by my background as a professional esports athlete, leveraging deep meta-analysis and native player empathy to build systems that deliver measurable business impact. 
+                At Blitz.gg I led production of 1,000+ Valorant lineup videos
+                with a 6-person team and Scrum workflows that raised sprint
+                video output 30%+. Now at M80 Esports I run Discord, support,
+                and Shopify commerce ops, with AI ticket pipelines that cut
+                handling time 40%. Completing a B.S. in Computer Science at WGU
+                (expected 2027); Certified ScrumMaster.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to fuse product leadership with technical excellence, building
-                 scalable architecture that drives measurable impact."
+                &quot;I care about systems that help players and communities
+                move faster: clear ops, tight feedback loops, and work that
+                holds up under live traffic.&quot;
               </p>
             </div>
           </div>
 
-          {/* Right Column - Highlights */}
           <div className="grid sm:grid-cols-2 gap-6">
             {highlights.map((item, idx) => (
               <div

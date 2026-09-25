@@ -4,28 +4,29 @@ import {
   ChevronDown,
   Github,
   Linkedin,
-  Twitter,
   Download,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
-  "Scrum",
-  "Product Roadmapping",
+  "Roadmapping",
+  "OKRs / KPIs",
   "A/B Testing",
-  "Lifecycle Management",
-  "SLA & Workflow Optimization",
-  "Product Growth",
+  "User Telemetry",
+  "Content Funnels",
+  "Live Ops",
+  "Scrum",
+  "Kanban",
+  "Sprint Planning",
+  "P&L Ownership",
+  "Cross-Functional Leadership",
+  "Support & Commerce Ops",
   "SQL",
-  "Python",
-  "Bash",
-  "Git",
-  "Linux",
-  "Relational Databases",
-  "APIs",
-  "Conversion Rate Optimization",
-  "User Acquisition",
-  "Creator Telemetry",
+  "Shopify",
+  "Discord",
+  "Notion",
+  "DaVinci Resolve",
+  "CMS",
 ];
 
 export const Hero = () => {
@@ -45,6 +46,7 @@ export const Hero = () => {
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(30)].map((_, i) => (
           <div
+            key={i}
             className="absolute w-1.5 h-1.5 rounded-full opacity-60"
             style={{
               backgroundColor: "#6366f1",
@@ -67,44 +69,48 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Technical Product Manager | Founder & Product Lead
+                Community Manager · M80 Esports
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Engineering <span className="text-primary glow-text">products</span>
+                Building{" "}
+                <span className="text-primary glow-text">communities</span>
                 <br />
-                that scale
+                and live platforms
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  for millions of players.
+                  for players.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-              I am Jonathan Lovelace, a Technical Product Manager and Founder. 
-              I architect and scale data-driven gaming systems for millions of players, 
-              bridging the gap between high-level product strategy and deep engineering 
-              execution.
+                I&apos;m Jonathan Lovelace, a product-minded operator for gaming
+                communities and live platforms. At Blitz I led 1,000+ videos with
+                a 6-person team for 2.5M MAUs. As a partnered creator I grew to
+                10M+ viewers and 2,000+ peak CCV, with premium subs at 64% of
+                P&amp;L. At M80 I run community, support, and commerce, cutting
+                ticket time 40% with AI workflows.
               </p>
             </div>
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               <a href="#contact">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
-              </Button>
+                <Button size="lg">
+                  Contact Me <ArrowRight className="w-5 h-5" />
+                </Button>
               </a>
               <a
-              href="/Jonathan_Lovelace_Resume.pdf" 
-              download="Jonathan_Lovelace_Resume.pdf"
-              className="inline-block">
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+                href="/Jonathan_Lovelace_Resume.pdf"
+                download="Jonathan_Lovelace_Resume.pdf"
+                className="inline-block"
+              >
+                <AnimatedBorderButton>
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </AnimatedBorderButton>
               </a>
             </div>
 
@@ -112,7 +118,10 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Linkedin, href: "https://www.linkedin.com/in/jvlovelace/" },
+                {
+                  icon: Linkedin,
+                  href: "https://www.linkedin.com/in/jvlovelace/",
+                },
                 { icon: Github, href: "https://github.com/jvlovelace" },
               ].map((social, idx) => (
                 <a
@@ -127,7 +136,6 @@ export const Hero = () => {
           </div>
           {/* Right Column - Profile Image */}
           <div className="relative animate-fade-in animation-delay-300">
-            {/* Profile Image */}
             <div className="relative max-w-md mx-auto">
               <div
                 className="absolute inset-0 
@@ -144,7 +152,6 @@ export const Hero = () => {
                   filter contrast-[1] saturate-[1] brightness-[0.86]"
                 />
 
-                {/* Floating Badge */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
@@ -153,12 +160,9 @@ export const Hero = () => {
                     </span>
                   </div>
                 </div>
-                {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                   <div className="text-2xl font-bold text-primary">6+</div>
-                  <div className="text-xs">
-                    Years Exp.
-                  </div>
+                  <div className="text-xs">Years Exp.</div>
                 </div>
               </div>
             </div>
