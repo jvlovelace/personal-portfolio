@@ -23,7 +23,7 @@ const highlights = [
     icon: Activity,
     title: "Telemetry & Iteration",
     description:
-      "I run live on stream telemetry, content loops, and retention signals. Test, read the numbers, and tighten the next sprint so output and quality climb together.",
+      "Live-stream telemetry, content loops, and retention signals. Test, read the numbers, and tighten the next sprint so output and quality climb together.",
   },
 ];
 
@@ -74,8 +74,8 @@ export const About = () => {
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
                 &quot;I care about systems that help players and communities
-                move faster: clear ops, honest metrics, and work that holds up
-                in public.&quot;
+                move faster: clear ops, tight feedback loops, and work that
+                holds up under live traffic.&quot;
               </p>
             </div>
           </div>

@@ -235,9 +235,10 @@ export const Contact = () => {
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
-              I am looking to architect the next generation of gaming, tech or esports products.
-               If your organization is ready to scale high-concurrency platforms or 
-               build a data-driven fan ecosystem, let’s build the future together.
+                Open to roles in gaming, tech, and esports where community,
+                content, and live-platform ops need an owner who ships. If you
+                are scaling player support, creator programs, or data-informed
+                content loops, I would like to talk.
               </p>
             </div>
           </div>

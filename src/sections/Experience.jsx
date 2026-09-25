@@ -74,10 +74,10 @@ export const Experience = () => {
            mt-4 mb-6 animate-fade-in animation-delay-100
             text-secondary-foreground"
           >
-            Experience that{" "}
+            Where I&apos;ve{" "}
             <span className="font-serif italic font-normal text-white">
               {" "}
-              holds up.
+              built and led.
             </span>
           </h2>
 
@@ -86,8 +86,8 @@ export const Experience = () => {
            animate-fade-in animation-delay-200"
           >
             From competitive play and in-product content production to partnered
-            creator ops and esports community management: roles and numbers
-            that match the public record.
+            creator ops and esports community management across Twitch, Blitz.gg,
+            Lazarus, and M80.
           </p>
         </div>
 

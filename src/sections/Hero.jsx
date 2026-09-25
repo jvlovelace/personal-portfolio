@@ -15,7 +15,7 @@ const skills = [
   "User Telemetry",
   "Content Funnels",
   "Live Ops",
-  "Scrum (CSM)",
+  "Scrum",
   "Kanban",
   "Sprint Planning",
   "P&L Ownership",
