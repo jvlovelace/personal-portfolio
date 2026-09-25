@@ -1,4 +1,4 @@
-import { Headphones, MessageSquare, Rocket, Users } from "lucide-react";
+import { Activity, Film, MessageSquare, Users } from "lucide-react";
 
 const highlights = [
   {
@@ -8,22 +8,22 @@ const highlights = [
       "Discord growth, weekly programming, and member experience for competitive audiences.",
   },
   {
-    icon: Headphones,
-    title: "Live Platforms",
-    description:
-      "Partnered creator ops across Twitch, YouTube, and TikTok: uptime, packaging, and P&L.",
-  },
-  {
     icon: MessageSquare,
     title: "Support & Commerce",
     description:
       "Player support and Shopify ops, including AI ticket pipelines that cut handling time.",
   },
   {
-    icon: Rocket,
-    title: "Data-Informed Iteration",
+    icon: Film,
+    title: "Content Production",
     description:
-      "Telemetry, content loops, and scrubbed workflows that raise output without inventing metrics.",
+      "1,000+ videos with a 6-person team; CMS and Scrum workflows that lifted session retention 10% and sprint output 30%+.",
+  },
+  {
+    icon: Activity,
+    title: "Telemetry & Iteration",
+    description:
+      "I run live on stream telemetry, content loops, and retention signals. Test, read the numbers, and tighten the next sprint so output and quality climb together.",
   },
 ];
 
