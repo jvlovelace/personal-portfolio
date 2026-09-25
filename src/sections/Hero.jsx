@@ -86,7 +86,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                I&apos;m Jonathan Lovelace — a product-minded operator for gaming
+                I&apos;m Jonathan Lovelace, a product-minded operator for gaming
                 communities and live platforms. I scaled a partnered creator
                 channel to a 10M+ viewer network and 2,000+ peak CCU, with premium
                 subscriptions at 64% of P&amp;L. At M80 Esports I own community,

@@ -4,7 +4,7 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Jonathan ran our Valorant lineup production like a real studio — a six-person crew, clear handoffs, and a thousand-plus videos that actually showed up in-product. You pointed him at the pipeline and he made it ship.",
+      "Jonathan ran our Valorant lineup production like a real studio: a six-person crew, clear handoffs, and a thousand-plus videos that actually showed up in-product. You pointed him at the pipeline and he made it ship.",
     author: "Max Lager",
     role: "Senior Product Manager, Blitz.gg",
     avatar: "/testimonials/max-lager.jpeg",
@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     quote:
-      "Jonathan treated the channel like a business — packaging brand deals, watching the numbers, and adjusting when something underperformed. Rare to see a creator that serious about the P&L.",
+      "Jonathan treated the channel like a business: packaging brand deals, watching the numbers, and adjusting when something underperformed. Rare to see a creator that serious about the P&L.",
     author: "Kelly Sheng",
     role: "Creator Success Manager, StreamElements",
     avatar: "/testimonials/kelly-sheng.jpeg",

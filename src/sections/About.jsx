@@ -11,7 +11,7 @@ const highlights = [
     icon: Headphones,
     title: "Live Platforms",
     description:
-      "Partnered creator ops across Twitch, YouTube, and TikTok — uptime, packaging, and P&L.",
+      "Partnered creator ops across Twitch, YouTube, and TikTok: uptime, packaging, and P&L.",
   },
   {
     icon: MessageSquare,
@@ -50,7 +50,7 @@ export const About = () => {
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
                 Product-minded operator for gaming communities and live
-                platforms — spanning competitive play, in-product content
+                platforms, spanning competitive play, in-product content
                 production, partnered creator ops, and esports community
                 management.
               </p>
@@ -74,7 +74,7 @@ export const About = () => {
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
                 &quot;I care about systems that help players and communities
-                move faster — clear ops, honest metrics, and work that holds up
+                move faster: clear ops, honest metrics, and work that holds up
                 in public.&quot;
               </p>
             </div>

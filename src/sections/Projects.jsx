@@ -56,7 +56,7 @@ export const Projects = () => {
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
             In-product content production, creator-platform scale, and community
-            ops — tied to roles and metrics on the master resume.
+            ops, tied to roles and metrics on the master resume.
           </p>
         </div>
 

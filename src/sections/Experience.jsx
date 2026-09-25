@@ -1,6 +1,6 @@
 const experiences = [
   {
-    period: "Aug 2026 — Present",
+    period: "Aug 2026 - Present",
     role: "Community Manager",
     company: "M80 Esports",
     description:
@@ -15,7 +15,7 @@ const experiences = [
     current: true,
   },
   {
-    period: "Jan 2023 — Aug 2026",
+    period: "Jan 2023 - Aug 2026",
     role: "Partnered Content Creator",
     company: "Twitch",
     description:
@@ -29,7 +29,7 @@ const experiences = [
     current: false,
   },
   {
-    period: "Jun 2020 — Jan 2023",
+    period: "Jun 2020 - Jan 2023",
     role: "Content Producer",
     company: "Blitz.gg",
     description:
@@ -38,7 +38,7 @@ const experiences = [
     current: false,
   },
   {
-    period: "Mar 2020 — Jun 2020",
+    period: "Mar 2020 - Jun 2020",
     role: "Professional Esports Athlete",
     company: "Lazarus Esports",
     description:
@@ -86,7 +86,7 @@ export const Experience = () => {
            animate-fade-in animation-delay-200"
           >
             From competitive play and in-product content production to partnered
-            creator ops and esports community management — roles and numbers
+            creator ops and esports community management: roles and numbers
             that match the public record.
           </p>
         </div>
